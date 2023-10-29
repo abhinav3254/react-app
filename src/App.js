@@ -21,7 +21,7 @@ const App = () => {
       <h1>Hello {name}!</h1>
       <button onClick={() => setCounter((prevCount) => prevCount - 1)}>-</button>
       <h1>{counter}</h1>
-      <button onClick={() => setCounter((prevCount) => prevCount + 1)}>-</button>
+      <button onClick={() => setCounter((prevCount) => prevCount + 1)}>+</button>
       {/* importing Person component here */}
       {/* <Person name={'Abhinav'} last={'Jha'} age={24} />
       <Person name={'Kushi'} last={'Jha'} age={24} />
